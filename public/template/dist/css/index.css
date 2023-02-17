@@ -1,0 +1,102 @@
+.content-wrapper {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-image: url('../img/1.jpg');
+    background-size:auto;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+.table-data{
+    position: absolute;
+    
+    top: 30%;
+    left: 20px;
+    color: white;
+    background:rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 1%;
+    width: 150vh;
+    box-shadow: 0 0 10px 5px #ffffff96;
+}
+.bc {
+    min-height: 100vh;
+    display: flex;
+    justify-content:left;
+    align-items:flex-start;
+}
+.search_box{
+    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+    height: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0 0 10px 5px #ffffff96;
+}
+
+.search_box .search_btn{
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    background: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    box-shadow: 0 0 5px 4px #ffffff96;
+    margin-right: 15px;
+    cursor: pointer;
+
+}
+
+.search_box .input_search{
+    outline: none;
+    border: none;
+    background:rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 15px 20px;
+    width: 200px;
+    height: 41px;
+    color: #fff;
+    box-shadow: 0 0 5px 1px #ffffff96;
+}
+.AB {
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    background:rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 1%;
+    width: 30cm;
+    box-shadow: 0 0 10px 5px #ffffff96;
+}
+.search_filter .search_btn {
+    float: right;
+    position:relative;
+    left: 5%;
+    width: 55px;
+    height: 50px;
+    border-radius: 10%;
+    background: rgba(3, 3, 3, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    margin-right: 15px;
+    cursor: pointer;
+}
+::placeholder {
+    color: #fff;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+}

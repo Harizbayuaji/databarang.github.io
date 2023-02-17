@@ -1,0 +1,22 @@
+
+.content-wrapper {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/1.jpg');
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 58%;
+    color: white;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background:rgba(0, 0, 0, 0.7);
+    padding: 1%;
+    width: 75%;
+    box-shadow: 0 0 10px 5px #ffffff96;
+}
+
